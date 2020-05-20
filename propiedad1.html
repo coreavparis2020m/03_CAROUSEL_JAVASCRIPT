@@ -8,7 +8,7 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/main.js"></script>
 </head>
-<body>
+<body onresize="setSizes()">
     <header>
         <img src="img/logo.svg">
         <nav>
@@ -98,7 +98,44 @@
         </div>
     </div>
     <div class="overlay"></div>
-
+    <div class="carousel">
+        <div class="slide">
+            <img src="img/property1.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/property2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/property3.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/property4.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/property5.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/property6.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/property8.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/property9.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/property10.jpg" alt="">
+        </div>
+        <div class="x-modal" onclick="closeModal()">
+            <img src="img/x.svg" alt="">
+        </div>
+        <div class="left-arrow">
+            <img src="img/left.svg" alt="">
+        </div>
+        <div class="right-arrow" onclick="nextSlide()">
+            <img src="img/right.svg" alt="">
+        </div>
+    </div>
     <footer>
         <div class="columna">
             <p>Imperial Real Estate</p>
