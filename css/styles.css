@@ -807,6 +807,7 @@ footer a:hover {
     z-index: 100;
     display: none;
     overflow: hidden;
+    background-color: white;
 }
 
 .carousel .x-modal {
@@ -821,6 +822,7 @@ footer a:hover {
     position: absolute;
     top: 0;
     overflow: hidden;
+    transition: all 900ms linear;
 }
 
 .carousel .slide img {
